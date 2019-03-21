@@ -242,7 +242,7 @@ function purchaseItems() {
 	        },
 	        {
 	          type: "input",
-	          message: "How many would you like to purchase:",
+	          message: "How many would you like to purchase?",
 	          name: "itemCnt",
 	        }
       	])
@@ -301,7 +301,7 @@ function purchaseItems() {
 
 function updateDatabase(id,num) {
 
-	var newcnt = prodIdArr[id] - num
+	var newcnt = parseInt(prodIdArr[id]) - parseInt(num)
 	var sql = "UPDATE products SET stock_in_quantity="+newcnt+" WHERE id="+id
 	con.query(sql, function (err, result, fields) {
 		if (err) throw err
