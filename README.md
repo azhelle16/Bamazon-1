@@ -12,6 +12,7 @@ Bamazon will be a command line node app that behaves like the Amazon Store. It w
 	- npm i inquirer
 	- npm i cli-table
 	- npm i mysql
+	- npm i require
 
 2. Run The SQL provided in the code
 
