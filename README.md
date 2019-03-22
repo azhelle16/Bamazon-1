@@ -38,6 +38,8 @@ CLI-Table - https://www.npmjs.com/package/cli-table (used to properly display th
 
 MySQL - https://www.npmjs.com/package/mysql (used for the database)
 
+Require - https://www.npmjs.com/package/require (used to import packages in the javascript file)
+
 ### Screenshots
 
 1. Showing The Main Menu
